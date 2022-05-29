@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>javascript drum</title>
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+  <body>
+    <div class="key1">
+      <div data-key="65" class="key">
+        <kbd>A</kbd>
+        <span class="sound">clap</span>
+      </div>
+      <div data-key="83" class="key">
+        <kbd>S</kbd>
+        <span class="sound">hithat</span>
+      </div>
+      <div data-key="68" class="key">
+        <kbd>D</kbd>
+        <span class="sound">kick</span>
+      </div>
+      <div data-key="70" class="key">
+        <kbd>F</kbd>
+        <span class="sound">openhat</span>
+      </div>
+      <div data-key="71" class="key">
+        <kbd>G</kbd>
+        <span class="sound">boom</span>
+      </div>
+    </div>
+    <audio
+      data-key="65"
+      src="https://raw.githubusercontent.com/olivercoats/wes-bos-drum-kit/master/sounds/openhat.wav"
+    ></audio>
+    <audio
+      data-key="83"
+      src="https://raw.githubusercontent.com/olivercoats/wes-bos-drum-kit/master/sounds/kick.wav"
+    ></audio>
+    <audio
+      data-key="68"
+      src="https://raw.githubusercontent.com/olivercoats/wes-bos-drum-kit/master/sounds/hihat.wav"
+    ></audio>
+    <audio
+      data-key="70"
+      src="https://raw.githubusercontent.com/olivercoats/wes-bos-drum-kit/master/sounds/clap.wav"
+    ></audio>
+    <audio
+      data-key="71"
+      src="https://raw.githubusercontent.com/olivercoats/wes-bos-drum-kit/master/sounds/boom.wav"
+    ></audio>
+    <script src="index.js"></script>
+  </body>
+</html>
